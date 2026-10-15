@@ -1,6 +1,5 @@
 const { useState, useEffect, useRef, useMemo } = React;
 
-/* ---------------- Data ---------------- */
 const PROFILE = {
   name: 'Niko Edrian B. Simangon',
   initials: 'NS',
@@ -12,7 +11,7 @@ const PROFILE = {
   photo: 'NIKO.jpg',
 };
 
-const ROLES = ['Information Technology student', 'Aspiring web developer', 'Curious problem-solver', 'Always learning something new'];
+const ROLES = ['Information Technology Student', 'Aspiring Web Developer', 'Curious problem-solver', 'Always Learning Something New'];
 
 const SKILLS = [
   ['HTML', 'Developing', 70], ['CSS', 'Developing', 65], ['PHP', 'Beginner', 45],
@@ -40,7 +39,6 @@ const EDUCATION = [
 const NAV = ['home', 'dashboard', 'skills', 'projects', 'education', 'contact'];
 const reduceMotion = () => window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-/* ---------------- Hooks & helpers ---------------- */
 function useInView(threshold = 0.2) {
   const ref = useRef(null);
   const [seen, setSeen] = useState(false);
