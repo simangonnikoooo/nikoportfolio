@@ -193,7 +193,7 @@ function Hero() {
           &gt; {typed}<span className="caret" />
         </p>
         <p className="muted text-lg max-w-xl mt-3">
-          I study Information Technology at {PROFILE.school}. I enjoy programming and web development, and I am learning to build useful digital solutions.
+          I study Information Technology at {PROFILE.school}.Nueva Vizcaya State University. I enjoy programming and web development, and I am learning to build useful digital solutions. I am always eager to improve my technical skills, explore new technologies, and gain more experience through hands-on projects. My goal is to use my knowledge and creativity to develop systems that can help people and solve real-world problems.
         </p>
         <div className="mt-8 flex gap-3 flex-wrap items-center">
           <a href="#projects" className="btn btn-primary">View projects →</a>
