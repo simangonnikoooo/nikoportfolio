@@ -9,7 +9,7 @@ const PROFILE = {
   phone: '09995673382',
   facebook: { label: 'Niko Simangon', url: '' }, // add a real link when ready
   github: { label: 'GitHub', url: '' },          // add a real link when ready
-  photo: 'assets/NIKO.jpg',
+  photo: 'NIKO.jpg',
 };
 
 const ROLES = ['Information Technology student', 'Aspiring web developer', 'Curious problem-solver', 'Always learning something new'];
