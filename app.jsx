@@ -7,8 +7,8 @@ const PROFILE = {
   school: 'Nueva Vizcaya State University',
   email: 'simangonniko@gmail.com',
   phone: '09995673382',
-  facebook: { label: 'Niko Simangon', url: '' }, // add a real link when ready
-  github: { label: 'GitHub', url: '' },          // add a real link when ready
+  facebook: { label: 'Niko Simangon', url: 'https://www.facebook.com/share/1EK8neQxhe/' },
+  github: { label: 'GitHub', url: 'https://github.com/simangonnikoooo' },
   photo: 'NIKO.jpg',
 };
 
